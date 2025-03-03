@@ -1,5 +1,7 @@
 package elektroshop;
 
+import java.util.Scanner;
+
 public class Items {
     private Fridge[] items;
 
@@ -9,10 +11,16 @@ public class Items {
      * @param count - pozadovany pocet lednicek
      */
     public void addItems(int count) {
-      //  items = new ....
-        for (int i=0; i<count; count++){
+        Scanner scanner = new Scanner(System.in);
+        items = new Fridge[count];
+        for (int i=0; i<count; i++){
             //nacti od uzivatele míru spotreby a rok výroby ledničky
             //pridej lednicku do pole lednicek
+            System.out.println("Zadej míru spotřeby");
+            char spotreba =scanner.next().charAt(0);
+            System.out.print("Zadej rok výroby ledniky ");
+            int rokVyroby = scanner.nextInt();
+
         }
 
     }
@@ -25,7 +33,13 @@ public class Items {
      */
     public void printInfo(){
         System.out.println("-----INFO O LEDNICKACH-----");
-        //sem dopln kod
+        printInfo();
         System.out.println("-----");
+    }
+
+    public void nenarocneLednicky(){
+        if (char spotreba = char A){
+            System.out.println(Fridge);
+        }
     }
 }
