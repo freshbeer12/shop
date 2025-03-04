@@ -50,6 +50,9 @@ public class Main {
                     sc.nextLine();
                     items.addItems(pocet);
                     items.printInfo();
+                    items.vypisPocet();
+                    items.pocetNarocnosti();
+
                     break;
                 case "5":
                     Library library = new Library();
@@ -73,5 +76,6 @@ public class Main {
 
         }
         System.out.println("Konec programu.");
+
     }
 }

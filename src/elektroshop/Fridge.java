@@ -1,12 +1,16 @@
 package elektroshop;
 
 public class Fridge {
-    char spotreba;
+    Narocnost spotreba;
     String znacka;
     String model;
     int rokVyroby;
 
-    public Fridge(char spotreba, String znacka, String model, int rokVyroby){
+    public Narocnost getNarocnost(){
+        return this.spotreba;
+    }
+
+    public Fridge(Narocnost spotreba, String znacka, String model, int rokVyroby){
         this.spotreba = spotreba;
         this.znacka = znacka;
         this.model = model;
