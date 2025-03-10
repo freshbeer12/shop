@@ -42,6 +42,8 @@ public class Main {
                     sc.nextLine();
                     film.addActors(pocet);
                     film.printInfo();
+                    film.filmicek();
+                    film.pocetHercu();
                     break;
                 case "4":
                     Items items = new Items();
@@ -52,7 +54,6 @@ public class Main {
                     items.printInfo();
                     items.vypisPocet();
                     items.pocetNarocnosti();
-
                     break;
                 case "5":
                     Library library = new Library();
