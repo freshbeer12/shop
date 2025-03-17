@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf5e7ef3-1be3-4265-92ff-587ec21311a0" name="Changes" comment="zabitej test">
+      <change afterPath="$PROJECT_DIR$/src/library/Magazine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/IItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,8 +36,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/freshbeer12/shop.git",
-    "accountId": "b089e9e0-501c-4be2-855e-6ffead7d6956"
+    "url": "https://github.com/freshbeer12/shop",
+    "accountId": "807aa4d5-64f2-447f-b927-bb15816ceb07"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -101,6 +106,7 @@
       <workItem from="1740999046624" duration="4776000" />
       <workItem from="1741068076311" duration="5933000" />
       <workItem from="1741603055904" duration="4465000" />
+      <workItem from="1742208274857" duration="4833000" />
     </task>
     <task id="LOCAL-00001" summary="k">
       <option name="closed" value="true" />

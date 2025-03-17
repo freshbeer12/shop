@@ -57,9 +57,12 @@ public class Main {
                     break;
                 case "5":
                     Library library = new Library();
-                    System.out.println("Kolik si prejete pridat položek?");
+                    System.out.println("Kolik si přejete zadat magazínů");
+                    pocet = sc.nextInt();
+                    System.out.println("Kolik si prejete pridat knih?");
                     pocet = sc.nextInt();
                     sc.nextLine();
+                    library.addMagazines(pocet);
                     library.addItems(pocet);
                     library.printInfo();
                     break;
